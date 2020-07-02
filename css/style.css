@@ -90,12 +90,12 @@ h3 {
   color: #ddd;
   font-weight: 300;
   padding: 1rem 4rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   border-radius: 10px;
   line-height: 1.8;
   text-align: center;
-  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .container .signup__title span {
@@ -106,8 +106,8 @@ h3 {
   background: #fff;
   padding: 2rem;
   border-radius: 10px;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .container .signup__form .form-group {
@@ -197,7 +197,7 @@ h3 {
   font-weight: 700;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   body {
     height: 100%;
   }
@@ -208,6 +208,14 @@ h3 {
   .container .cta h1 {
     width: 100%;
     padding-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    height: minmax(100vh, 100%);
+  }
+  .container .cta h1 {
     font-size: 2rem;
   }
 }
