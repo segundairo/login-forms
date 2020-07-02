@@ -4,8 +4,53 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Login Form with JS validation</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
+   <div class="wrapper">
+   <div class="container">
+      <div class="cta">
+         <h1>Learn to code by watching others</h1>         
+         <p>see how experienced developers solve problems in real time. Watching scripted tutorials is great but understanding how developers thin is invaluable</p>
+      </div>
+      <div class="signup">
+         <div class="signup__title">
+            <h5><span>Try it free for 7 days </span>then $20/mo. thereafter</h5>
+         </div>
+            <form action="#" class="signup__form" id="signup__form">
+               <div class="form-group">
+                  <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                  <small>First Name cannot be empty</small>
+                 <div> <img src="./images/icon-error.svg" alt=""></div>
+               </div>
+               <div class="form-group">
+                  <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                  <small>Last Name cannot be empty</small>
+                  <div> <img src="./images/icon-error.svg" alt=""></div>
+               </div>
+               <div class="form-group">
+                  <input type="email" name="email" id="email" placeholder="Email Address">
+                  <small>Looks like this is not an email</small>
+                  <div> <img src="./images/icon-error.svg" alt=""></div>
+               </div>
+               <div class="form-group">
+                  <input type="password" name="password" id="password" placeholder="Password">
+                  <small>Password cannot be empty</small>
+               </div>
+               <div class="form-group">
+                  <input type="password" name="password2" id="password2" placeholder="Confirm Password">
+                  <small>Password must match</small>
+               </div>
+               <div class="form-group">
+                  <input type="submit" value="CLAIM YOUR FREE TRIAL">
+                  <small>By clicking the button you are agreeing to our <span>Terms and Services</span></small>
+               </div>
+            </form>
+        
+      </div>
+   </div>
+</div>
    
 </body>
 </html>
